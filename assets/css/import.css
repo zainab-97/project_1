@@ -1,0 +1,49 @@
+@import url('bloghome.html');
+@import url("style1.css");
+@import url("skills.css");
+@import url("participants.css");
+
+
+
+@media(min-width:901px){
+    header{
+        padding: 12px 20px;
+    }
+}
+@media(max-width:900px) and (min-width:600px){
+    body{
+        font-size:13px;
+    }
+    .main h2{
+        font-size: 1.2em;
+    }
+    .main h3{
+        font-size: 2em;
+    }
+    .footerTitlt{
+        padding-left: 10em;
+     }
+     
+    .cards{
+        padding: 0px;
+    }
+}
+
+@media(max-width:320px){
+
+    body{
+        font-size:8px;
+    }
+   
+    .main h2{
+        font-size:1em;
+    
+    }
+    .main h3{
+        font-size:1.5em;
+    }
+    .participants{
+        padding: 0px;
+    }
+    
+}
